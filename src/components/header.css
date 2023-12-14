@@ -1,0 +1,18 @@
+.header-container{
+    background-color: rgb(194, 228, 217);
+    height: 140px;
+    display: flex; /* Use flex container */
+    align-items: center; /* Center vertically */
+    justify-content: space-around; /* Space between children (logo and other content) */
+    padding: 0 20px; /* Optional padding for space around the logo */
+
+}
+.logo{
+    width: 100px;
+}
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
